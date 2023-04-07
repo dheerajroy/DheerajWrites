@@ -11,4 +11,6 @@ paginate = 10
     name = "posts"
     weight = 0
     url = "/posts"
-
+[context.production.environment]
+  HUGO_VERSION = "0.78.0"
+  HUGO_ENV = "production"
