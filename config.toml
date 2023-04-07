@@ -1,0 +1,14 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Dheeraj Writes"
+# Add it only if you keep the theme in the `themes` directory.
+# Remove it if you use the theme as a remote Hugo Module.
+theme = "papermod"
+paginate = 10
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
+
